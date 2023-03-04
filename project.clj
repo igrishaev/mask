@@ -1,7 +1,7 @@
 (defproject com.github.igrishaev/mask "0.1.0-SNAPSHOT"
 
   :description
-  "FIXME: write description"
+  "A small library to prevent secrets from being logged or printed."
 
   :deploy-repositories
   {"releases" {:url "https://repo.clojars.org" :creds :gpg}}
