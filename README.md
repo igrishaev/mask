@@ -7,9 +7,9 @@ Why? Because I've been in such a situation three times, namely:
 
 - We don't mask the secrets.
 - Someone logs the entire config.
-- Secrets have leaked.
+- Secrets have leaked!
 - Rotate all the keys, tokens, etc.
-- Change team and face the same.
+- Change the team and face the same.
 
 This library is an attempt to break this vicious circle.
 
