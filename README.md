@@ -18,13 +18,13 @@ This library is an attempt to break this vicious circle.
 Leiningen/Boot:
 
 ```clojure
-[com.github.igrishaev/mask "0.1.0"]
+[com.github.igrishaev/mask "0.1.1"]
 ```
 
 Clojure CLI/deps.edn:
 
 ```clojure
-com.github.igrishaev/mask {:mvn/version "0.1.0"}
+com.github.igrishaev/mask {:mvn/version "0.1.1"}
 ```
 
 ## Usage
