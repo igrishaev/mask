@@ -1,4 +1,4 @@
-(defproject com.github.igrishaev/mask "0.1.1-SNAPSHOT"
+(defproject com.github.igrishaev/mask "0.1.1"
 
   :description
   "A small library to prevent secrets from being logged or printed."
