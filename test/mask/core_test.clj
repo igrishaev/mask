@@ -41,7 +41,11 @@
   (is (= 42
          (-> {:foo #mask 42}
              (:foo)
-             (mask/unmask)))))
+             (mask/unmask))))
+
+  (let [m (mask/mask 42)]
+    (is (= 42 #unmask (do (let [x m]
+                            x))))))
 
 
 (deftest test-aero-tag

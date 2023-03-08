@@ -95,7 +95,7 @@ really masked. An example from the tests:
 ;; true
 ```
 
-### Clojure tag
+### Clojure tags
 
 The built-in `#mask` tag wraps any value with a mask:
 
@@ -103,6 +103,15 @@ The built-in `#mask` tag wraps any value with a mask:
 => {:token #mask "abc123" :password "SecretABC"}
 
 {:token << masked >>, :password "SecretABC"}
+```
+
+The `#unmask` tag does the opposite: unwraps a masked value:
+
+```clojure
+(def token (mask "secret123"))
+
+#unmask token
+;; "secret123"
 ```
 
 ### EDN tag

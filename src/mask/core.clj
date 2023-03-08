@@ -56,8 +56,12 @@
   (.write writer (str masked)))
 
 
-(defn reader-tag [form]
+(defn reader-tag-mask [form]
   `(mask ~form))
+
+
+(defn reader-tag-unmask [form]
+  `(unmask ~form))
 
 
 (defn reader-edn [value]
